@@ -1,6 +1,6 @@
 # Stranger Things - Front End Development Exercise
 
-The intent of this execise is to create a website to display content about a Netflix original that is popular in our RTP-Durham office.
+The intent of this execise is to create a website to display content about a Netflix original that references the RTP-Durham area.
 
 A primary goal for me was to get some practice working with some new technologies and tools that I have been interested in learning.
 
