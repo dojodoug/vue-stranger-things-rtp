@@ -10,6 +10,6 @@ It was a challenge but I had a great time working through the process. There's a
 
 To run the Vue app you must first install VUE CLI. In your terminal run:
 
-### `npm install -g @vue/cli
-# OR
-yarn global add @vue/cli`
+### `npm install -g @vue/cli`
+OR
+### `yarn global add @vue/cli`
