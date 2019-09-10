@@ -13,3 +13,14 @@ To run the Vue app you must first install VUE CLI. In your terminal run:
 ### `npm install -g @vue/cli`
 OR
 ### `yarn global add @vue/cli`
+
+Then go to the project directory and run:
+
+### `npm run serve`
+
+OR
+
+### `yarn serve`
+
+This will run the Vue app in the development mode.<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
