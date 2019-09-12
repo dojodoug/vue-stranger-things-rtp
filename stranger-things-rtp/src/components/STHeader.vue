@@ -1,10 +1,10 @@
 <template>
-  <div class="header-container">
+  <header class="header-container">
     <div class="header">
       <STNav></STNav>
       <p class="header-text">{{ engData.heading }}</p>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

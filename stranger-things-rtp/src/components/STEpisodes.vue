@@ -1,9 +1,9 @@
 <template>
-  <div id="episodes-div" class="episodes">
-    <section class="title">
+  <section id="episodes-div" class="episodes">
+    <div class="title">
       <h1 class="title episodes-title">EPISODES</h1>
-    </section>
-    <section class="season1-list">
+    </div>
+    <div class="season1-list">
       <p>Season 1 Episodes by Rating</p>
       <ul>
         <li
@@ -15,8 +15,8 @@
           <div class="rating">Rating: {{ episode.rating }}</div>
         </li>
       </ul>
-    </section>
-    <section class="season2-list">
+    </div>
+    <div class="season2-list">
       <p>Season 2 Episodes by Rating</p>
       <ul>
         <li
@@ -28,8 +28,8 @@
           <div class="rating">Rating: {{ episode.rating }}</div>
         </li>
       </ul>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script>

@@ -1,19 +1,21 @@
 <template>
-  <Slide>
-    <a
-      id="inspiration"
-      href="#inspiration-div"
-      v-scroll-to="'#inspiration-div'"
-    >
-      <span>INSPIRATION</span>
-    </a>
-    <a id="gallery" href="#gallery-div">
-      <span>GALLERY</span>
-    </a>
-    <a id="episodes" href="#episodes-div">
-      <span>EPISODES</span>
-    </a>
-  </Slide>
+  <nav>
+    <Slide>
+      <a
+        id="inspiration"
+        href="#inspiration-div"
+        v-scroll-to="'#inspiration-div'"
+      >
+        <span>INSPIRATION</span>
+      </a>
+      <a id="gallery" href="#gallery-div">
+        <span>GALLERY</span>
+      </a>
+      <a id="episodes" href="#episodes-div">
+        <span>EPISODES</span>
+      </a>
+    </Slide>
+    </nav>
 </template>
 
 <script>

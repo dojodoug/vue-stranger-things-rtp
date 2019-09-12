@@ -1,18 +1,18 @@
 <template>
-  <div id="inspiration-div" class="inspiration">
-    <section class="title">
+  <section id="inspiration-div" class="inspiration">
+    <div class="title">
       <img
         class="st-logo"
         alt="Stranger Things logo"
         src="./../assets/stranger-things_raw.png"
       />
       <h1 class="title inspiration-title">INSPIRATION</h1>
-    </section>
-    <section class="quote">
+    </div>
+    <div class="quote">
       <p>"{{ engData.quote.text }}"</p>
       <p>- {{ engData.quote.author }}</p>
-    </section>
-    <section class="inspiration-text">
+    </div>
+    <div class="inspiration-text">
       <ul>
         <li
           class="snippets"
@@ -29,8 +29,8 @@
           {{ location }}
         </li>
       </ul>
-    </section>
-    <section class="video-container st-video">
+    </div>
+    <div class="video-container st-video">
       <iframe
         class="video-iframe"
         alt="Stranger Things video"
@@ -38,8 +38,8 @@
         allow="encrypted-media"
         allowfullscreen
       ></iframe>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script>

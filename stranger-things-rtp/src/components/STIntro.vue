@@ -1,9 +1,9 @@
 <template>
-  <div class="intro">
+  <section class="intro">
     <div class="intro-description">
       {{ engData.description }}
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
