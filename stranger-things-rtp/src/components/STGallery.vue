@@ -1,24 +1,24 @@
 <template>
   <section id="gallery-div" class="gallery">
-    <div class="title gallery-title">
+    <figure class="title gallery-title">
       <h1 class="title">GALLERY</h1> 
-    </div>
-    <div class="gallery-tiles image1">
+    </figure>
+    <figure class="gallery-tiles image1">
       <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[0]" />
-      <p class="gallery-text">{{galleryText[0]}}</p>
-    </div>
-    <div class="gallery-tiles image2">
+      <figcaption class="gallery-text">{{galleryText[0]}}</figcaption>
+    </figure>
+    <figure class="gallery-tiles image2">
       <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[1]" />
-      <p class="gallery-text">{{galleryText[1]}}</p>
-    </div>
-    <div class="gallery-tiles image3">
+      <figcaption class="gallery-text">{{galleryText[1]}}</figcaption>
+    </figure>
+    <figure class="gallery-tiles image3">
       <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[2]" />
-      <p class="gallery-text">{{galleryText[2]}}</p>
-    </div>
-    <div class="gallery-tiles image4">
+      <figcaption class="gallery-text">{{galleryText[2]}}</figcaption>
+    </figure>
+    <figure class="gallery-tiles image4">
       <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[3]" />
-      <p class="gallery-text">{{galleryText[3]}}</p>
-    </div>
+      <figcaption class="gallery-text">{{galleryText[3]}}</figcaption>
+    </figure>
   </section>
 </template>
 
