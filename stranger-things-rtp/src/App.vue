@@ -28,8 +28,6 @@
 </script>
 
 <style>
-  @import url('https://www.fontify.me/wf/7ae0c162d7a54b07d9af0bfbdba6482e');
-
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,7 +41,7 @@
   }
 
   body {
-    font-family: font77490;
+    font-family: 'ITC Benguiat', sans-serif;
     min-width: 350px;
     margin: 0;
     height: 100%;

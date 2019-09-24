@@ -3,22 +3,10 @@
     <figure class="title gallery-title">
       <h1 class="title">GALLERY</h1> 
     </figure>
-    <figure class="gallery-tiles image1">
-      <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[0]" />
-      <figcaption class="gallery-text">{{galleryText[0]}}</figcaption>
-    </figure>
-    <figure class="gallery-tiles image2">
-      <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[1]" />
-      <figcaption class="gallery-text">{{galleryText[1]}}</figcaption>
-    </figure>
-    <figure class="gallery-tiles image3">
-      <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[2]" />
-      <figcaption class="gallery-text">{{galleryText[2]}}</figcaption>
-    </figure>
-    <figure class="gallery-tiles image4">
-      <img class="gallery-pics" alt="Gallery tiles" :src="galleryPics[3]" />
-      <figcaption class="gallery-text">{{galleryText[3]}}</figcaption>
-    </figure>
+    <figure class="gallery-tiles" v-for="picture in galleryData">
+      <img class="gallery-pics" alt="Gallery tiles" :src="picture.src"/>
+      <figcaption class="gallery-text">{{picture.text}}</figcaption>
+    </figure> 
   </section>
 </template>
 
@@ -81,6 +69,7 @@
 
     .gallery-title {
       grid-area: title;
+      margin-top: 0;
     }
 
     .image1 {
